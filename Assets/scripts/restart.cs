@@ -15,6 +15,6 @@ public class restart : MonoBehaviour
     }
     public void RestartGame()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(sceneName:"Level1");
     }
 }
